@@ -1,0 +1,20 @@
+// Conditional operator
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int a, b, c;
+	
+	a = 2;						// Defines a
+	b = 7;						// Defines b
+	c = (a > b) ? a : b;
+	
+	/*
+	The value of c depends.
+	Is a greater than b? If yes, c equals a.
+	If no, c equals b.
+	*/
+	
+	cout << c << '\n';
+}
