@@ -8,13 +8,14 @@ int main() {
 	
 	a = 2;						// Defines a
 	b = 7;						// Defines b
-	c = (a > b) ? a : b;
-	
-	/*
-	The value of c depends.
-	Is a greater than b? If yes, c equals a.
-	If no, c equals b.
-	*/
+	c = (a > b) ? a : b;		/*
+								The value of c depends on a and b.
+								Is a greater than b?
+								If yes, c equals a.
+								If no, c equals b.
+								*/
 	
 	cout << c << '\n';
+	
+	return 0;
 }
