@@ -1,7 +1,7 @@
 //Countdown using a for loop
 #include <iostream>
 #include <string>
- using namespace std;
+using namespace std;
  
  int main() {
 	 //For loop, n is 10, while n is greater than zero -> decrease n by one
